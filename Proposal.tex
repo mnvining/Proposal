@@ -1,0 +1,41 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{amsfonts,amsmath,amsthm,amsbsy,latexsym,amssymb,graphicx,booktabs,multicol,color,fullpage}
+\usepackage{mathabx,dashrule}
+\usepackage{manfnt}
+\usepackage{pgf,tikz}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+
+\title{Thesis Proposal}
+\author{Melanie Vining}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{Introduction}
+\subsection{Fourier Continuation}
+Fourier Continuation (FC) is an approximation method used to extend the computational abilities of a Fourier Series to non-periodic functions.  
+\subsection{Past Work}
+\section{Current Work}
+\subsection{Application to the Heat Equation}
+\subsection{Green's Functions}
+\subsection{Results}
+\section{Future Work}
+\subsection{Computational Work}
+We are going to use this to put as a time step of the heat equation and solve that PDE.  Our goal is to show that we have a stable approximation that can be used. 
+\subsection{Analytical Work}
+The result that yields the same Fourier coefficients for any given Gram polynomial independent of choice of $\alpha$ is unexpected.  Our goal is to develop an analytic proof that justifies this result in general. 
+
+
+
+\end{document}  
