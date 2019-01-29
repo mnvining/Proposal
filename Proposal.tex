@@ -22,18 +22,20 @@
 
 \begin{document}
 \maketitle
-\section{Introduction}
-\subsection{Fourier Continuation}
+\section{Introduction} \\
+\subsection{Fourier Continuation} \\
 Fourier Continuation (FC) is an approximation method used to extend the computational abilities of a Fourier Series to non-periodic functions.  
 \subsection{Past Work}
 \section{Current Work}
-\subsection{Application to the Heat Equation}
-\subsection{Green's Functions}
-\subsection{Results}
+\subsection{Application to the Heat Equation} \\
+We study the Boundary Value Problem $(I-\alpha \frac{\partial^2}{\partial x^2})u=f$ with boundary values $u(a)=u_0$ and $u(b)=u_1$.  As a motivating example, consider $f(x)=x$ on $[0,1]$.  Let $\mathcal{L}=(I-\alpha \frac{\partial^2}{\partial x^2}$.  When we solve $u=\mathcal{L}^{-1}f$ using Fourier Continuation approximations, some energy from the continuation domain can be spread back into the system.  Since we know analytically for $\alpha >0$ the system is stable, using the Fourier Continuation approximation can be a computationally inaccurate approach. Our goal is to find an additional constraint that would preserve the accuracy of the Fourier Continuation approximation while ensuring the stability of the operation.  
+\subsection{Green's Functions} \\
+\subsection{Results} \\
+For the individual Gram Polynomials, we saw accuracy of $\mathcal{O}(10^{-14})$.  In the following figure, we see the accuracy as a function of parameter $\alpha$
 \section{Future Work}
-\subsection{Computational Work}
+\subsection{Computational Work} \\
 We are going to use this to put as a time step of the heat equation and solve that PDE.  Our goal is to show that we have a stable approximation that can be used. 
-\subsection{Analytical Work}
+\subsection{Analytical Work} \\
 The result that yields the same Fourier coefficients for any given Gram polynomial independent of choice of $\alpha$ is unexpected.  Our goal is to develop an analytic proof that justifies this result in general. 
 
 
