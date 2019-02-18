@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JAN 2019 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 FEB 2019 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,30 +1033,53 @@ File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 \WF@everypar=\toks43
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2004/08/31 v1.71 
+\dashlinedash=\dimen209
+\dashlinegap=\dimen210
+\adl@box=\box68
+\adl@height=\dimen211
+\adl@heightsave=\dimen212
+\adl@depth=\dimen213
+\adl@depthsave=\dimen214
+\adl@finaldepth=\dimen215
+\adl@columns=\count149
+\adl@ncol=\count150
+\adl@currentcolumn=\count151
+\adl@currentcolumnsave=\count152
+\adl@totalheight=\count153
+\adl@totalheightsave=\count154
+\adl@dash=\count155
+\adl@gap=\count156
+\adl@cla=\count157
+\adl@clb=\count158
+\adl@everyvbox=\toks44
+\adl@LTpagetotal=\dimen216
+)
 (./Proposal.aux)
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 23.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -1097,125 +1120,97 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
-\scratchdimen=\dimen209
-\scratchbox=\box68
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count152
-\MPscratchDim=\dimen210
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count159
+\scratchdimen=\dimen217
+\scratchbox=\box69
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen218
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 23.
+ on input line 26.
 
 
-./Proposal.tex:26: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \subsection
-                {Fourier Continuation} \\
-? 
-
-./Proposal.tex:27: LaTeX Error: There's no line here to end.
+./Proposal.tex:29: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 F
-      ourier Continuation (FC) is an approximation method used to extend the...
-
+l.29 \subsection
+                {Motivation} \\
 ? 
 
-./Proposal.tex:31: LaTeX Error: There's no line here to end.
+./Proposal.tex:30: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 W
-      e study the Boundary Value Problem $(I-\alpha \frac{\partial^2}{\parti...
+l.30 O
+      ur goal is to study a numerically accurate and stable scheme for solvi...
 
 ? 
+<VariousConts0degEven.jpg, id=4, 903.375pt x 495.8525pt>
+File: VariousConts0degEven.jpg Graphic file (type jpg)
 
-./Proposal.tex:33: LaTeX Error: There's no line here to end.
+<use VariousConts0degEven.jpg>
+Package pdftex.def Info: VariousConts0degEven.jpg used on input line 43.
+(pdftex.def)             Requested size: 361.3436pt x 198.33748pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \subsection
-                {Results} \\
-? 
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
 
-./Proposal.tex:34: LaTeX Error: There's no line here to end.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 F
-      or the individual Gram Polynomials, we saw accuracy of $\mathcal{O}(10...
-
-? 
-
-./Proposal.tex:37: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 W
-      e are going to use this to put as a time step of the heat equation and...
-
-? 
-
-./Proposal.tex:39: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 T
-      he result that yields the same Fourier coefficients for any given Gram...
-
-? 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Proposal.aux) ) 
+[2 <./VariousConts0degEven.jpg>]
+
+./Proposal.tex:109: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 T
+       he result that yields the same Fourier coefficients for any given Gra...
+
+? 
+[3] (./Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 22715 strings out of 493089
- 559725 string characters out of 6134842
- 738391 words of memory out of 5000000
- 25596 multiletter control sequences out of 15000+600000
- 16849 words of font info for 63 fonts, out of 8000000 for 9000
+ 22928 strings out of 493089
+ 562640 string characters out of 6134842
+ 741391 words of memory out of 5000000
+ 25800 multiletter control sequences out of 15000+600000
+ 17816 words of font info for 66 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 54i,5n,77p,764b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8
-.pfb>
-Output written on Proposal.pdf (1 page, 99101 bytes).
+ 54i,11n,77p,942b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha1
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/math
+a6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/mat
+ha8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/ma
+thx10.pfb>
+Output written on Proposal.pdf (3 pages, 161944 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
