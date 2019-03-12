@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 FEB 2019 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAR 2019 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,10 +610,6 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 )
 \c@hdr@segments=\count120
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/manfnt/manfnt.sty
-Package: manfnt 1999/07/010.2LaTeX2e manfnt package
-\dbend@height=\skip54
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
@@ -1159,39 +1155,56 @@ l.30 O
       ur goal is to study a numerically accurate and stable scheme for solvi...
 
 ? 
-<VariousConts0degEven.jpg, id=4, 903.375pt x 495.8525pt>
-File: VariousConts0degEven.jpg Graphic file (type jpg)
 
-<use VariousConts0degEven.jpg>
-Package pdftex.def Info: VariousConts0degEven.jpg used on input line 43.
-(pdftex.def)             Requested size: 361.3436pt x 198.33748pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
-
+Overfull \hbox (74.77779pt too wide) detected at line 51
+\U/matha/m/n/10.95 p\OT1/cmr/m/n/10.95 1 \U/matha/m/n/10.95 ^^A [][]qp\OT1/cmr/
+m/n/10.95 1 \U/matha/m/n/10.95 ^^A [][]q\OML/cmm/m/it/10.95 u[] \U/matha/m/n/10
+.95 ^^P p\OT1/cmr/m/n/10.95 1 \U/matha/m/n/10.95 ^^@ [][]qp\OT1/cmr/m/n/10.95 1
+ \U/matha/m/n/10.95 ^^@ [][]q ^^@ [][][]p\OML/cmm/m/it/10.95 u[] \U/matha/m/n/1
+0.95 ^^A \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 q ^^@ \OT1/cmr/m/n/10.95 ^^A
+\OML/cmm/m/it/10.95 tQ[] \U/matha/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 ^^A\OML/cmm/
+m/it/10.95 tE[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x; y; \OT1/cmr/m/n/10.95
+ ^^A\OML/cmm/m/it/10.95 t\U/matha/m/n/10.95 q
  []
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./VariousConts0degEven.jpg>]
+<FourierContinuations.jpg, id=21, 903.375pt x 521.95pt>
+File: FourierContinuations.jpg Graphic file (type jpg)
 
-./Proposal.tex:109: LaTeX Error: There's no line here to end.
+<use FourierContinuations.jpg>
+Package pdftex.def Info: FourierContinuations.jpg used on input line 82.
+(pdftex.def)             Requested size: 361.3436pt x 208.77629pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--88
+
+ []
+
+[2] [3 <./FourierContinuations.jpg>] [4]
+
+./Proposal.tex:192: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 T
+l.192 T
        he result that yields the same Fourier coefficients for any given Gra...
 
 ? 
-[3] (./Proposal.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+[5] (./Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 22928 strings out of 493089
- 562640 string characters out of 6134842
- 741391 words of memory out of 5000000
- 25800 multiletter control sequences out of 15000+600000
- 17816 words of font info for 66 fonts, out of 8000000 for 9000
+ 22887 strings out of 493089
+ 561973 string characters out of 6134842
+ 746071 words of memory out of 5000000
+ 25762 multiletter control sequences out of 15000+600000
+ 17984 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 54i,11n,77p,942b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,13n,77p,942b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
@@ -1201,16 +1214,19 @@ ts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha1
-0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/math
-a6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/mat
-ha8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/ma
-thx10.pfb>
-Output written on Proposal.pdf (3 pages, 161944 bytes).
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha
+8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/math
+x10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on Proposal.pdf (5 pages, 205684 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
