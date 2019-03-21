@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Motivation}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{FC-AD}{5}{0}{1}
+\beamer@subsectionintoc {2}{3}{Fourier Continuation}{10}{0}{1}
+\beamer@subsectionintoc {2}{4}{FC-Gram}{13}{0}{1}
+\beamer@sectionintoc {3}{Current Work}{16}{0}{2}
+\beamer@subsectionintoc {3}{1}{Green's Function Solution}{18}{0}{2}
+\beamer@subsectionintoc {3}{2}{Minimization Problem}{20}{0}{2}
+\beamer@subsectionintoc {3}{3}{Results}{24}{0}{2}
+\beamer@sectionintoc {4}{Future Work}{29}{0}{3}
+\beamer@subsectionintoc {4}{1}{Computational Work}{30}{0}{3}
+\beamer@subsectionintoc {4}{2}{Analytical Work}{30}{0}{3}

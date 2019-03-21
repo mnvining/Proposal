@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAR 2019 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 MAR 2019 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,7 +137,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen121
 \Gm@dimlist=\toks26
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+
+
+LaTeX Warning: Command \@starttoc  has changed.
+               Check if current package is valid.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
@@ -1055,27 +1062,27 @@ Package: arydshln 2004/08/31 v1.71
 (./Proposal.aux)
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -1132,101 +1139,292 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 26.
+ on input line 30.
 
 
-./Proposal.tex:29: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \subsection
-                {Motivation} \\
-? 
-
-./Proposal.tex:30: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 O
-      ur goal is to study a numerically accurate and stable scheme for solvi...
-
-? 
-
-Overfull \hbox (74.77779pt too wide) detected at line 51
-\U/matha/m/n/10.95 p\OT1/cmr/m/n/10.95 1 \U/matha/m/n/10.95 ^^A [][]qp\OT1/cmr/
-m/n/10.95 1 \U/matha/m/n/10.95 ^^A [][]q\OML/cmm/m/it/10.95 u[] \U/matha/m/n/10
-.95 ^^P p\OT1/cmr/m/n/10.95 1 \U/matha/m/n/10.95 ^^@ [][]qp\OT1/cmr/m/n/10.95 1
- \U/matha/m/n/10.95 ^^@ [][]q ^^@ [][][]p\OML/cmm/m/it/10.95 u[] \U/matha/m/n/1
-0.95 ^^A \OML/cmm/m/it/10.95 u[]\U/matha/m/n/10.95 q ^^@ \OT1/cmr/m/n/10.95 ^^A
-\OML/cmm/m/it/10.95 tQ[] \U/matha/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 ^^A\OML/cmm/
-m/it/10.95 tE[]\U/matha/m/n/10.95 p\OML/cmm/m/it/10.95 x; y; \OT1/cmr/m/n/10.95
- ^^A\OML/cmm/m/it/10.95 t\U/matha/m/n/10.95 q
- []
+Class amsart Warning: Abstract should precede \maketitle in AMS document classe
+s; reported on input line 33.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<FourierContinuations.jpg, id=21, 903.375pt x 521.95pt>
-File: FourierContinuations.jpg Graphic file (type jpg)
+[2]
+Package epstopdf Info: Source file: <f_2ForComparison.eps>
+(epstopdf)                    date: 2019-03-17 13:40:48
+(epstopdf)                    size: 32167 bytes
+(epstopdf)             Output file: <f_2ForComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 13:41:07
+(epstopdf)                    size: 22414 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2ForComparison-eps-conve
+rted-to.pdf f_2ForComparison.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+ <f_2ForComparison-eps-converted-to.pdf, id=25, 462.72874pt x 346.29375pt>
+File: f_2ForComparison-eps-converted-to.pdf Graphic file (type pdf)
 
-<use FourierContinuations.jpg>
-Package pdftex.def Info: FourierContinuations.jpg used on input line 82.
-(pdftex.def)             Requested size: 361.3436pt x 208.77629pt.
+<use f_2ForComparison-eps-converted-to.pdf>
+Package pdftex.def Info: f_2ForComparison-eps-converted-to.pdf used on input li
+ne 107.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--88
-
- []
-
-[2] [3 <./FourierContinuations.jpg>] [4]
-
-./Proposal.tex:192: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 T
-       he result that yields the same Fourier coefficients for any given Gra...
-
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 103--113
 
  []
 
-[5] (./Proposal.aux) ) 
+[3] [4 <./f_2ForComparison-eps-converted-to.pdf>] [5] [6] [7]
+Package epstopdf Info: Source file: <f_0Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:13:29
+(epstopdf)                    size: 24002 bytes
+(epstopdf)             Output file: <f_0Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 15:43:42
+(epstopdf)                    size: 17717 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_0Cosine-eps-converted-to
+.pdf f_0Cosine.eps>
+(epstopdf)             \includegraphics on input line 263.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_0Cosine-eps-converted-to.pdf, id=94, 462.72874pt x 346.29375pt>
+File: f_0Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_0Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_0Cosine-eps-converted-to.pdf used on input line 263.
+
+(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
+Package epstopdf Info: Source file: <f_1Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:16:39
+(epstopdf)                    size: 21521 bytes
+(epstopdf)             Output file: <f_1Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 15:44:06
+(epstopdf)                    size: 15519 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_1Cosine-eps-converted-to
+.pdf f_1Cosine.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_1Cosine-eps-converted-to.pdf, id=95, 462.72874pt x 346.29375pt>
+File: f_1Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_1Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_1Cosine-eps-converted-to.pdf used on input line 266.
+
+(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
+
+Overfull \hbox (20.27257pt too wide) in paragraph at lines 261--273
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <f_2Cosine.eps>
+(epstopdf)                    date: 2019-03-18 10:59:34
+(epstopdf)                    size: 25927 bytes
+(epstopdf)             Output file: <f_2Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 10:59:49
+(epstopdf)                    size: 16732 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2Cosine-eps-converted-to
+.pdf f_2Cosine.eps>
+(epstopdf)             \includegraphics on input line 283.
+Package epstopdf Info: Output file is already uptodate.
+<f_2Cosine-eps-converted-to.pdf, id=96, 638.385pt x 420.57124pt>
+File: f_2Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_2Cosine-eps-converted-to.pdf used on input line 283.
+
+(pdftex.def)             Requested size: 191.51697pt x 126.17235pt.
+Package epstopdf Info: Source file: <f_3Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:38:32
+(epstopdf)                    size: 21431 bytes
+(epstopdf)             Output file: <f_3Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 15:47:26
+(epstopdf)                    size: 15295 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_3Cosine-eps-converted-to
+.pdf f_3Cosine.eps>
+(epstopdf)             \includegraphics on input line 285.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_3Cosine-eps-converted-to.pdf, id=97, 462.72874pt x 346.29375pt>
+File: f_3Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_3Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_3Cosine-eps-converted-to.pdf used on input line 285.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_4Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:40:06
+(epstopdf)                    size: 24265 bytes
+(epstopdf)             Output file: <f_4Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 16:26:48
+(epstopdf)                    size: 16477 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_4Cosine-eps-converted-to
+.pdf f_4Cosine.eps>
+(epstopdf)             \includegraphics on input line 288.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_4Cosine-eps-converted-to.pdf, id=98, 462.72874pt x 346.29375pt>
+File: f_4Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_4Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_4Cosine-eps-converted-to.pdf used on input line 288.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_5Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:48:08
+(epstopdf)                    size: 24301 bytes
+(epstopdf)             Output file: <f_5Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 16:26:48
+(epstopdf)                    size: 17407 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_5Cosine-eps-converted-to
+.pdf f_5Cosine.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_5Cosine-eps-converted-to.pdf, id=99, 462.72874pt x 346.29375pt>
+File: f_5Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_5Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_5Cosine-eps-converted-to.pdf used on input line 290.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_6Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:53:19
+(epstopdf)                    size: 24307 bytes
+(epstopdf)             Output file: <f_6Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 16:26:50
+(epstopdf)                    size: 17283 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_6Cosine-eps-converted-to
+.pdf f_6Cosine.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_6Cosine-eps-converted-to.pdf, id=100, 462.72874pt x 346.29375pt>
+File: f_6Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_6Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_6Cosine-eps-converted-to.pdf used on input line 293.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_7Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:57:59
+(epstopdf)                    size: 23617 bytes
+(epstopdf)             Output file: <f_7Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 16:26:51
+(epstopdf)                    size: 16979 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_7Cosine-eps-converted-to
+.pdf f_7Cosine.eps>
+(epstopdf)             \includegraphics on input line 295.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_7Cosine-eps-converted-to.pdf, id=101, 462.72874pt x 346.29375pt>
+File: f_7Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_7Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_7Cosine-eps-converted-to.pdf used on input line 295.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_8Cosine.eps>
+(epstopdf)                    date: 2019-03-17 13:02:00
+(epstopdf)                    size: 23850 bytes
+(epstopdf)             Output file: <f_8Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 16:26:52
+(epstopdf)                    size: 16693 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_8Cosine-eps-converted-to
+.pdf f_8Cosine.eps>
+(epstopdf)             \includegraphics on input line 298.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_8Cosine-eps-converted-to.pdf, id=102, 462.72874pt x 346.29375pt>
+File: f_8Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_8Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_8Cosine-eps-converted-to.pdf used on input line 298.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+Package epstopdf Info: Source file: <f_9Cosine.eps>
+(epstopdf)                    date: 2019-03-18 12:00:07
+(epstopdf)                    size: 24448 bytes
+(epstopdf)             Output file: <f_9Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 12:26:20
+(epstopdf)                    size: 17347 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_9Cosine-eps-converted-to
+.pdf f_9Cosine.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_9Cosine-eps-converted-to.pdf, id=103, 462.72874pt x 346.29375pt>
+File: f_9Cosine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_9Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_9Cosine-eps-converted-to.pdf used on input line 300.
+
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+
+
+LaTeX Warning: Float too large for page by 7.56357pt on input line 307.
+
+[8 <./f_0Cosine-eps-converted-to.pdf> <./f_1Cosine-eps-converted-to.pdf>]
+[9 <./f_2Cosine-eps-converted-to.pdf> <./f_3Cosine-eps-converted-to.pdf> <./f_4
+Cosine-eps-converted-to.pdf> <./f_5Cosine-eps-converted-to.pdf> <./f_6Cosine-ep
+s-converted-to.pdf> <./f_7Cosine-eps-converted-to.pdf> <./f_8Cosine-eps-convert
+ed-to.pdf> <./f_9Cosine-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Error_f_2.eps>
+(epstopdf)                    date: 2019-03-19 09:23:39
+(epstopdf)                    size: 25384 bytes
+(epstopdf)             Output file: <Error_f_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-19 09:26:34
+(epstopdf)                    size: 16715 bytes
+(epstopdf)             Command: <repstopdf --outfile=Error_f_2-eps-converted-to
+.pdf Error_f_2.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
+
+<Error_f_2-eps-converted-to.pdf, id=455, 462.72874pt x 346.29375pt>
+File: Error_f_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Error_f_2-eps-converted-to.pdf>
+Package pdftex.def Info: Error_f_2-eps-converted-to.pdf used on input line 311.
+
+(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--336
+
+ []
+
+[10 <./Error_f_2-eps-converted-to.pdf>] [11] (./Proposal.bbl) [12]
+(./Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 22887 strings out of 493089
- 561973 string characters out of 6134842
- 746071 words of memory out of 5000000
- 25762 multiletter control sequences out of 15000+600000
- 17984 words of font info for 67 fonts, out of 8000000 for 9000
+ 22967 strings out of 493089
+ 564092 string characters out of 6134842
+ 745068 words of memory out of 5000000
+ 25823 multiletter control sequences out of 15000+600000
+ 18966 words of font info for 71 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 54i,13n,77p,942b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha
-8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/math
-x10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on Proposal.pdf (5 pages, 205684 bytes).
+ 54i,15n,77p,908b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb>
+Output written on Proposal.pdf (12 pages, 403283 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 562 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

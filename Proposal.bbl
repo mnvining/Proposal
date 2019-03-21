@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{FCAD1}
+Oscar~P. Bruno and Mark Lyon.
+\newblock High-order unconditionally stable fc-ad solvers for general smooth
+  domains i. basic elements.
+\newblock {\em Journal of Computational Physics}, 229:2009--2033, 2010.
+
+\bibitem{FCAD2}
+Mark Lyon and Oscar~P. Bruno.
+\newblock High-order unconditionally stable fc-ad solvers for general smooth
+  domains ii. elliptic, parabolic and hyperbolic pdes; theoretical
+  considerations.
+\newblock {\em Journal of Computational Physics}, 229:3358--3381, 2010.
+
+\bibitem{FC1}
+Oscar~P. Bruno, Youngae Han, and Matthew~M. Pohlman.
+\newblock Accurate, high-order representation of complex three-dimensional
+  surfaces via fourier continuation analysis.
+\newblock {\em Journal of Computational Physics}, 227:1094--1125, 2007.
+
+\bibitem{BO}
+Carl~M. Bender and Steven~A. Orszag.
+\newblock {\em Advanced Mathematical Methods for Scientists and Engineers;
+  Asymptotic Methods and Perturbation Theory}.
+\newblock Springer, 1999.
+
+\bibitem{Platte}
+Rodrigo~B. Platte, Lloyd~N. Trefethen, and Arno~B.J. Kuijlaars.
+\newblock Impossibility of fast stable approximation of analytic functions from
+  equispaced samples.
+\newblock {\em SIAM Review}, 53(2):308--318, 2011.
+
+\end{thebibliography}
