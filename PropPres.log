@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 MAR 2019 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAR 2019 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1644,29 +1644,27 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ]
 (./PropPres.toc) [2
 
-] (./PropPres.toc) [3
-
-] [4
+] [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 84.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 87.
+LaTeX Font Info:    No file OMScmss.fd. on input line 84.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 87.
+(Font)              for symbol `textbullet' on input line 84.
 
-[5
+[4
+
+] [5
 
 ] [6
 
 ] [7
 
 ] [8
-
-] [9
 
 ]
 Package epstopdf Info: Source file: <Gibbs.eps>
@@ -1677,15 +1675,15 @@ Package epstopdf Info: Source file: <Gibbs.eps>
 (epstopdf)                    size: 35411 bytes
 (epstopdf)             Command: <repstopdf --outfile=Gibbs-eps-converted-to.pdf
  Gibbs.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
- <Gibbs-eps-converted-to.pdf, id=466, 562.1pt x 421.575pt>
+ <Gibbs-eps-converted-to.pdf, id=398, 562.1pt x 421.575pt>
 File: Gibbs-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Gibbs-eps-converted-to.pdf>
-Package pdftex.def Info: Gibbs-eps-converted-to.pdf used on input line 150.
+Package pdftex.def Info: Gibbs-eps-converted-to.pdf used on input line 151.
 (pdftex.def)             Requested size: 140.52466pt x 105.39348pt.
- [10
+ [9
 
  <./Gibbs-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FCEx.eps>
@@ -1696,32 +1694,32 @@ Package epstopdf Info: Source file: <FCEx.eps>
 (epstopdf)                    size: 7937 bytes
 (epstopdf)             Command: <repstopdf --outfile=FCEx-eps-converted-to.pdf 
 FCEx.eps>
-(epstopdf)             \includegraphics on input line 164.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<FCEx-eps-converted-to.pdf, id=516, 562.1pt x 421.575pt>
+<FCEx-eps-converted-to.pdf, id=445, 562.1pt x 421.575pt>
 File: FCEx-eps-converted-to.pdf Graphic file (type pdf)
 
 <use FCEx-eps-converted-to.pdf>
-Package pdftex.def Info: FCEx-eps-converted-to.pdf used on input line 164.
+Package pdftex.def Info: FCEx-eps-converted-to.pdf used on input line 166.
 (pdftex.def)             Requested size: 140.52466pt x 105.39348pt.
- [11
 
- <./FCEx-eps-converted-to.pdf>] [12
+Overfull \vbox (8.82976pt too high) detected at line 166
+ []
+
+[10
+
+ <./FCEx-eps-converted-to.pdf>] [11
 
 ]
-[13
-
-] <FCGram.jpg, id=644, 262.21858pt x 230.2407pt>
+<FCGram.jpg, id=529, 262.21858pt x 230.2407pt>
 File: FCGram.jpg Graphic file (type jpg)
  <use FCGram.jpg>
-Package pdftex.def Info: FCGram.jpg used on input line 190.
+Package pdftex.def Info: FCGram.jpg used on input line 185.
 (pdftex.def)             Requested size: 131.10896pt x 115.12007pt.
- [14
+ [12
 
- <./FCGram.jpg>] [15
-
-] (./PropPres.toc) [16
+ <./FCGram.jpg>] (./PropPres.toc) [13
 
 ]
 Package epstopdf Info: Source file: <f_2ForComparison.eps>
@@ -1732,39 +1730,140 @@ Package epstopdf Info: Source file: <f_2ForComparison.eps>
 (epstopdf)                    size: 22414 bytes
 (epstopdf)             Command: <repstopdf --outfile=f_2ForComparison-eps-conve
 rted-to.pdf f_2ForComparison.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<f_2ForComparison-eps-converted-to.pdf, id=778, 462.72874pt x 346.29375pt>
+<f_2ForComparison-eps-converted-to.pdf, id=620, 462.72874pt x 346.29375pt>
 File: f_2ForComparison-eps-converted-to.pdf Graphic file (type pdf)
 
 <use f_2ForComparison-eps-converted-to.pdf>
 Package pdftex.def Info: f_2ForComparison-eps-converted-to.pdf used on input li
-ne 205.
+ne 196.
 (pdftex.def)             Requested size: 138.81969pt x 103.88892pt.
- [17
+ [14
 
- <./f_2ForComparison-eps-converted-to.pdf>] [18
+ <./f_2ForComparison-eps-converted-to.pdf>] [15
 
 ]
-Overfull \hbox (8.54123pt too wide) detected at line 225
+Overfull \hbox (8.54123pt too wide) detected at line 221
 \OT1/mathkerncmss/m/sl/5 G\OT1/cmss/m/n/5 (\OT1/mathkerncmss/m/sl/5 x\OML/cmm/m
 /it/5 ; \OT1/mathkerncmss/m/sl/5 a\OT1/cmss/m/n/5 ) = []
  []
 
-[19
+[16
 
-] [20
+] [17
 
-] [21
+]
+Package epstopdf Info: Source file: <f_2NoG.eps>
+(epstopdf)                    date: 2019-03-21 12:23:17
+(epstopdf)                    size: 22493 bytes
+(epstopdf)             Output file: <f_2NoG-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 12:28:56
+(epstopdf)                    size: 15947 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2NoG-eps-converted-to.pd
+f f_2NoG.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+ <f_2NoG-eps-converted-to.pdf, id=821, 462.72874pt x 346.29375pt>
+File: f_2NoG-eps-converted-to.pdf Graphic file (type pdf)
 
-] [22
+<use f_2NoG-eps-converted-to.pdf>
+Package pdftex.def Info: f_2NoG-eps-converted-to.pdf used on input line 238.
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+ [18
 
-] [23
+ <./f_2NoG-eps-converted-to.pdf>] [19
 
-] [24
+]
+Package epstopdf Info: Source file: <f_2WGNoH.eps>
+(epstopdf)                    date: 2019-03-21 12:36:49
+(epstopdf)                    size: 26413 bytes
+(epstopdf)             Output file: <f_2WGNoH-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 12:39:11
+(epstopdf)                    size: 18460 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2WGNoH-eps-converted-to.
+pdf f_2WGNoH.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
 
-] [25
+<f_2WGNoH-eps-converted-to.pdf, id=929, 545.03625pt x 418.56375pt>
+File: f_2WGNoH-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2WGNoH-eps-converted-to.pdf>
+Package pdftex.def Info: f_2WGNoH-eps-converted-to.pdf used on input line 259.
+(pdftex.def)             Requested size: 163.51213pt x 125.57008pt.
+Package epstopdf Info: Source file: <f_2NoHZoom.eps>
+(epstopdf)                    date: 2019-03-22 10:44:42
+(epstopdf)                    size: 24901 bytes
+(epstopdf)             Output file: <f_2NoHZoom-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-22 10:46:21
+(epstopdf)                    size: 17949 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2NoHZoom-eps-converted-t
+o.pdf f_2NoHZoom.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_2NoHZoom-eps-converted-to.pdf, id=930, 462.72874pt x 346.29375pt>
+File: f_2NoHZoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2NoHZoom-eps-converted-to.pdf>
+Package pdftex.def Info: f_2NoHZoom-eps-converted-to.pdf used on input line 259
+.
+(pdftex.def)             Requested size: 138.81969pt x 103.88892pt.
+ [20
+
+ <./f_2WGNoH-eps-converted-to.pdf> <./f_2NoHZoom-eps-converted-to.pdf>] [21
+
+]
+Package epstopdf Info: Source file: <f_2WGWGNoL.eps>
+(epstopdf)                    date: 2019-03-21 12:38:36
+(epstopdf)                    size: 25584 bytes
+(epstopdf)             Output file: <f_2WGWGNoL-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 12:39:28
+(epstopdf)                    size: 17510 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2WGWGNoL-eps-converted-t
+o.pdf f_2WGWGNoL.eps>
+(epstopdf)             \includegraphics on input line 275.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_2WGWGNoL-eps-converted-to.pdf, id=1082, 462.72874pt x 346.29375pt>
+File: f_2WGWGNoL-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2WGWGNoL-eps-converted-to.pdf>
+Package pdftex.def Info: f_2WGWGNoL-eps-converted-to.pdf used on input line 275
+.
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+ [22
+
+ <./f_2WGWGNoL-eps-converted-to.pdf>]
+[23
+
+]
+Package epstopdf Info: Source file: <f_2Final.eps>
+(epstopdf)                    date: 2019-03-21 12:44:23
+(epstopdf)                    size: 24602 bytes
+(epstopdf)             Output file: <f_2Final-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 12:45:03
+(epstopdf)                    size: 16604 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2Final-eps-converted-to.
+pdf f_2Final.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+ <f_2Final-eps-converted-to.pdf, id=1193, 462.72874pt x 346.29375pt>
+File: f_2Final-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2Final-eps-converted-to.pdf>
+Package pdftex.def Info: f_2Final-eps-converted-to.pdf used on input line 290.
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+ [24
+
+ <./f_2Final-eps-converted-to.pdf>]
+[25
+
+] [26
+
+] [27
 
 ]
 Package epstopdf Info: Source file: <f_0Cosine.eps>
@@ -1775,14 +1874,14 @@ Package epstopdf Info: Source file: <f_0Cosine.eps>
 (epstopdf)                    size: 17717 bytes
 (epstopdf)             Command: <repstopdf --outfile=f_0Cosine-eps-converted-to
 .pdf f_0Cosine.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<f_0Cosine-eps-converted-to.pdf, id=1184, 462.72874pt x 346.29375pt>
+<f_0Cosine-eps-converted-to.pdf, id=1377, 462.72874pt x 346.29375pt>
 File: f_0Cosine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use f_0Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_0Cosine-eps-converted-to.pdf used on input line 291.
+Package pdftex.def Info: f_0Cosine-eps-converted-to.pdf used on input line 329.
 
 (pdftex.def)             Requested size: 115.6819pt x 86.57321pt.
 Package epstopdf Info: Source file: <f_1Cosine.eps>
@@ -1793,17 +1892,17 @@ Package epstopdf Info: Source file: <f_1Cosine.eps>
 (epstopdf)                    size: 15519 bytes
 (epstopdf)             Command: <repstopdf --outfile=f_1Cosine-eps-converted-to
 .pdf f_1Cosine.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<f_1Cosine-eps-converted-to.pdf, id=1185, 462.72874pt x 346.29375pt>
+<f_1Cosine-eps-converted-to.pdf, id=1378, 462.72874pt x 346.29375pt>
 File: f_1Cosine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use f_1Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_1Cosine-eps-converted-to.pdf used on input line 291.
+Package pdftex.def Info: f_1Cosine-eps-converted-to.pdf used on input line 329.
 
 (pdftex.def)             Requested size: 115.6819pt x 86.57321pt.
- [26
+ [28
 
  <./f_0Cosine-eps-converted-to.pdf> <./f_1Cosine-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <f_1u_1.eps>
@@ -1814,23 +1913,115 @@ Package epstopdf Info: Source file: <f_1u_1.eps>
 (epstopdf)                    size: 19964 bytes
 (epstopdf)             Command: <repstopdf --outfile=f_1u_1-eps-converted-to.pd
 f f_1u_1.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
-<f_1u_1-eps-converted-to.pdf, id=1295, 462.72874pt x 346.29375pt>
+<f_1u_1-eps-converted-to.pdf, id=1487, 462.72874pt x 346.29375pt>
 File: f_1u_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use f_1u_1-eps-converted-to.pdf>
-Package pdftex.def Info: f_1u_1-eps-converted-to.pdf used on input line 298.
+Package pdftex.def Info: f_1u_1-eps-converted-to.pdf used on input line 336.
 (pdftex.def)             Requested size: 208.22601pt x 155.83073pt.
- [27
+ [29
 
- <./f_1u_1-eps-converted-to.pdf>] [28
+ <./f_1u_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <f_2Sinewu.eps>
+(epstopdf)                    date: 2019-03-21 08:14:31
+(epstopdf)                    size: 30919 bytes
+(epstopdf)             Output file: <f_2Sinewu-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 08:29:58
+(epstopdf)                    size: 20616 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2Sinewu-eps-converted-to
+.pdf f_2Sinewu.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_2Sinewu-eps-converted-to.pdf, id=1566, 462.72874pt x 346.29375pt>
+File: f_2Sinewu-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2Sinewu-eps-converted-to.pdf>
+Package pdftex.def Info: f_2Sinewu-eps-converted-to.pdf used on input line 349.
+
+(pdftex.def)             Requested size: 138.81969pt x 103.88892pt.
+Package epstopdf Info: Source file: <Errorf_2Sine.eps>
+(epstopdf)                    date: 2019-03-21 08:22:13
+(epstopdf)                    size: 22723 bytes
+(epstopdf)             Output file: <Errorf_2Sine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 08:30:53
+(epstopdf)                    size: 16805 bytes
+(epstopdf)             Command: <repstopdf --outfile=Errorf_2Sine-eps-converted
+-to.pdf Errorf_2Sine.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+<Errorf_2Sine-eps-converted-to.pdf, id=1567, 462.72874pt x 346.29375pt>
+File: Errorf_2Sine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Errorf_2Sine-eps-converted-to.pdf>
+Package pdftex.def Info: Errorf_2Sine-eps-converted-to.pdf used on input line 3
+49.
+(pdftex.def)             Requested size: 138.81969pt x 103.88892pt.
+
+Overfull \hbox (10.89674pt too wide) in paragraph at lines 349--349
+ [] 
+ []
+
+[30
+
+ <./f_2Sinewu-eps-converted-to.pdf> <./Errorf_2Sine-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <f_2u_2unit.eps>
+(epstopdf)                    date: 2019-03-21 08:25:43
+(epstopdf)                    size: 31109 bytes
+(epstopdf)             Output file: <f_2u_2unit-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-21 08:30:53
+(epstopdf)                    size: 19818 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_2u_2unit-eps-converted-t
+o.pdf f_2u_2unit.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+<f_2u_2unit-eps-converted-to.pdf, id=1680, 462.72874pt x 346.29375pt>
+File: f_2u_2unit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use f_2u_2unit-eps-converted-to.pdf>
+Package pdftex.def Info: f_2u_2unit-eps-converted-to.pdf used on input line 356
+.
+(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
+ [31
+
+ <./f_2u_2unit-eps-converted-to.pdf>]
+[32
 
 ]
-(./PropPres.toc) [29
+Package epstopdf Info: Source file: <f_3Cosine.eps>
+(epstopdf)                    date: 2019-03-17 12:38:32
+(epstopdf)                    size: 21431 bytes
+(epstopdf)             Output file: <f_3Cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-17 15:47:26
+(epstopdf)                    size: 15295 bytes
+(epstopdf)             Command: <repstopdf --outfile=f_3Cosine-eps-converted-to
+.pdf f_3Cosine.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+ <f_3Cosine-eps-converted-to.pdf, id=1797, 462.72874pt x 346.29375pt>
+File: f_3Cosine-eps-converted-to.pdf Graphic file (type pdf)
 
-] (./PropPres.bbl) [30
+<use f_3Cosine-eps-converted-to.pdf>
+Package pdftex.def Info: f_3Cosine-eps-converted-to.pdf used on input line 384.
+
+(pdftex.def)             Requested size: 138.81969pt x 103.88892pt.
+ [33
+
+ <./f_3Cosine-eps-converted-to.pdf>]
+(./PropPres.toc) [34
+
+] [35
+
+] [36
+
+] (./PropPres.toc) [37
+
+] (./PropPres.bbl) [38
 
  </usr/local/texlive/2015/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
 >]
@@ -1843,13 +2034,14 @@ Package pdftex.def Info: f_1u_1-eps-converted-to.pdf used on input line 298.
 \tf@snm=\write8
 \openout8 = `PropPres.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
- (./PropPres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
+
+(./PropPres.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `PropPres.out' has not changed.
-(rerunfilecheck)             Checksum: 092A20A713366E632E684E43C1F942A0;718.
+(rerunfilecheck)             Checksum: ED0F085CF82744859C5BDE3F5735D5C0;628.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1858,42 +2050,42 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
- 27149 strings out of 493089
- 554633 string characters out of 6134842
- 577734 words of memory out of 5000000
- 30062 multiletter control sequences out of 15000+600000
- 13134 words of font info for 50 fonts, out of 8000000 for 9000
+ 27241 strings out of 493089
+ 556499 string characters out of 6134842
+ 578817 words of memory out of 5000000
+ 30125 multiletter control sequences out of 15000+600000
+ 14654 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,62p,10420b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cme
 x9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on PropPres.pdf (30 pages, 414121 bytes).
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on PropPres.pdf (38 pages, 569576 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 1380 compressed objects within 14 object streams
- 75 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2179 PDF objects out of 2487 (max. 8388607)
+ 1671 compressed objects within 17 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
