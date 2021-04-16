@@ -15,6 +15,7 @@
 \usepackage{wrapfig}
 \usepackage{multicol}
 \usepackage{arydshln}
+\usepackage{verbatim}
 \usepackage{xcolor}
 \newcommand{\subf}[2]{%
   {\small\begin{tabular}[t]{@{}c@{}}
@@ -40,6 +41,7 @@ Fourier Continuation approximation is a spectral method for function approximati
 \section{Introduction} 
 \subsection{Motivation} 
 The goal is to study a numerically accurate and stable scheme for solving partial differential equations on complex domains.  Several finite difference and finite element methods are available but have low-order accuracy.  We focus on the Fourier-Continuation Alternating-Direction (FC-AD) method described by Bruno and Lyon in \cite{FCAD1},\cite{FCAD2}. This method gives a high-order unconditionally stable solver for partial differential equations on any smooth domain.  One of the interesting details in the FC-AD method is that a certain modification to the solution that yields unconditional stability which is neither inherent to the problem nor an obvious choice and was in fact developed by numerical experiment. The aim is to find an unconditional stability condition that is more natural either to the problem itself and to the mechanics of the implementation.  
+
 
 \subsubsection{FC-AD}
 The Fourier-Continuation Alternating-Direction algorithm is a method that applies the concept of Alternating Direction Implicit (ADI) methods to using a Fourier Continuation (FC) method in the spatial domain.  ADI methods reduce the numerical solution to PDEs into implicit first order boundary value problems in space.  In traditional ADI methods, these  BVPs are solved using finite-difference methods and yield low-accuracy results, particularly on the boundaries.  \\
@@ -71,7 +73,7 @@ To solve for $u^{n+1}$, the operators on the left side must be inverted, which r
 \begin{eqnarray}
 u-\alpha u'' = f, & u(x_{\ell})=B_{\ell}, & u(x_r)=B_r 
 \end{eqnarray}
-where $\alpha=\dfrac{k\Delta t}{2}$ \cite{FCAD1}.  This turns a 2-D Partial Differential Equation into a sequence of 1-D Boundary Value Problems, which we can solve via whichever method is chosen.  For the FC-AD method, we choose to use a Fourier Continuation approximation to solve the differential equation numerically.  
+where $\alpha=\dfrac{k\Delta t}{2}$ \cite{FCAD1}.  This turns a 2-D Partial Differential Equation into a sequence of 1-D Boundary Value Problems, which we can solve via whichever method is chosen.  For the FC-AD method, a Fourier Continuation approximation is used to solve the differential equation numerically.  
 
 \subsubsection{Fourier Continuation}
 Fourier Series methods for approximating functions are well-known to be accurate on functions that are periodic on a specified interval.  However, in the attempt to approximate non-periodic functions on the same interval using Fourier Series, we see the Gibbs phenomenon and as a result the accuracy that we could have expected in the periodic case is no longer valid.  
@@ -115,8 +117,8 @@ This means that it is possible for a procedure to ``choose" a Fourier Continuati
 The Singular Value Decomposition (SVD) of the system was explorted in order to try to exploit the zero singular values, but that proved to be ineffective in changing the shape of the continuation due to horrible conditioning of the system($\texttt{cond(A)}=\mathcal{O}(10^{17})$)  and the inherent constraints that we were forced to impose upon it. 
 
 It was determined that by adding extra constraints to the system being solved, there would be more control over the system in question. Some fruitful results have come from focusing on a known solution to the BVP: The Green's Function. For simplicity, assume that $a=-1$ and $b=b$ and that there are zero Boundary Conditions (BCs). 
-
-\subsubsection{Green's Functions}
+\begin{comment}
+ \subsubsection{Green's Functions}
 The Green's Function solution was then calculated via the methods described in Bender and Orszag: Let 
 \begin{equation}
 G(x,a)=\begin{cases}
@@ -146,6 +148,8 @@ The final calculation of the Green's Function solution to the BVP comes from the
 u_G=\int_{-1}^b G(x,a)f(a)da.
 \end{equation}
 where $u_G(x)$ is the Green's Function solution for given $f(x)$.
+\end{comment}
+
 
 \subsubsection{System of Equations}
 
@@ -249,6 +253,15 @@ Using the psuedoinverse of this matrix with a tolerance of $1e-40$ gives enough 
 
 For the computations made, we chose $n=10$ and $B=3.5$, and tested values of $\alpha$ ranging from $0.001$ to $1$.  
 
+\subsection{Error Estimation}
+When approximating a function $f$ using an orthogonal set of $n$ polynomials $\Phi_0$, $\Phi_1$, $\ldots$, $\Phi_{n-1}$ , we expect the error between the function $f$ and its approximation $\hat{f}$ to behave like
+\begin{equation}
+||f-\hat{f}|| = h^0 E_0 + h^1 E_1 + \ldots + h^{n-1} E_{n-1},
+\end{equation} 
+where $E_0$-$E_{n-1}$ are defined as $||\Phi_i-\hat{\Phi}_i||$ and are known, and the value of $h$ is determined by the accuracy desired. 
+Assuming the highest degree polynomial will have the largest error, $h^{n-1}E_{n-1}$ can be used to find the value of $h$. 
+(For example, if using a set of $n=10$ orthogonal polynomials, with an error $E_9=1e-2$, if 16 digits of accuracy are desired for the approximation of $f$, $h^9 E_9  = 1e-16$, giving us $h^9=1e-14$ or $h\approx 3e-2$.  Using this, in order to maintain an accuracy of 1e-16, for the 4th degree polynomial the term $h^4E_4$ must also equal $1e-16$, so $E_4$ must be approximately $1e-10$).  \\Operating within these bounds, it can be seen that high accuracy is needed in the lower degree polynomials, but that higher accuracy in the higher degree polynomials will not affect the overall accuracy of the approximation.  \\
+Thus, instead of enforcing a strict machine-precision tolerance to approximate each polynomial, the tolerance is relaxed.  This appears in the SVD solve of the system of equations.  By relaxing the tolerance, some of the high-frequency modes which would cause the continuations to grow larger over a shorter interval are taken out of the system.  This controls the size of the continuations and allows for the transition from high precision to double precision without loss of accuracy.  
 
 \subsection{Results} 
 Fourier Continuations for all of the polynomials from degree 0 to degree 9 (maximal on 10 points) were calculated.  First, continuations were considered with $\mu=0$, using $\lambda$ to control stability. Stability was observed as a function of $\lambda$, subject to changes in accuracy.   For lower degree polynomials, where accuracy is very high, the use of $\lambda$ is imperative and the use of $\mu$ is seemingly unnecessary.  However, for higher degree polynomials, the accuracy of the continuation is very sensitive to changes in $\lambda$ and sometimes using $\mu$ is more efficient for controlling stability.  

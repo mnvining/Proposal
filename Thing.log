@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JUN 2019 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 MAR 2021 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Proposal.tex
-(./Proposal.tex
+**Thing.tex
+(./Thing.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsart.cls
@@ -1036,6 +1036,11 @@ File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 \WF@everypar=\toks43
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2004/08/31 v1.71 
 \dashlinedash=\dimen209
@@ -1059,30 +1064,88 @@ Package: arydshln 2004/08/31 v1.71
 \adl@everyvbox=\toks44
 \adl@LTpagetotal=\dimen216
 )
-(./Proposal.aux)
-\openout1 = `Proposal.aux'.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read2
+) (./Thing.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+)
+\openout1 = `Thing.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 33.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -1128,303 +1191,289 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \scratchbox=\box69
 \nofMPsegments=\count160
 \nofMParguments=\count161
-\everyMPshowfont=\toks45
+\everyMPshowfont=\toks47
 \MPscratchCnt=\count162
 \MPscratchDim=\dimen218
 \MPnumerator=\count163
 \makeMPintoPDFobject=\count164
-\everyMPtoPDFconversion=\toks46
+\everyMPtoPDFconversion=\toks48
 ) ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 30.
-
-
-Class amsart Warning: Abstract should precede \maketitle in AMS document classe
-s; reported on input line 33.
+ on input line 33.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-Package epstopdf Info: Source file: <f_2ForComparison.eps>
-(epstopdf)                    date: 2019-03-17 13:40:48
-(epstopdf)                    size: 32167 bytes
-(epstopdf)             Output file: <f_2ForComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 13:41:07
-(epstopdf)                    size: 22414 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_2ForComparison-eps-conve
-rted-to.pdf f_2ForComparison.eps>
-(epstopdf)             \includegraphics on input line 107.
-Package epstopdf Info: Output file is already uptodate.
- <f_2ForComparison-eps-converted-to.pdf, id=25, 462.72874pt x 346.29375pt>
-File: f_2ForComparison-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_2ForComparison-eps-converted-to.pdf>
-Package pdftex.def Info: f_2ForComparison-eps-converted-to.pdf used on input li
-ne 107.
-(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--113
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-[3] [4 <./f_2ForComparison-eps-converted-to.pdf>] [5] [6] [7]
-Package epstopdf Info: Source file: <f_0Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:13:29
-(epstopdf)                    size: 24002 bytes
-(epstopdf)             Output file: <f_0Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 15:43:42
-(epstopdf)                    size: 17717 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_0Cosine-eps-converted-to
-.pdf f_0Cosine.eps>
-(epstopdf)             \includegraphics on input line 263.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_0Cosine-eps-converted-to.pdf, id=94, 462.72874pt x 346.29375pt>
-File: f_0Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_0Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_0Cosine-eps-converted-to.pdf used on input line 263.
-
-(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
-Package epstopdf Info: Source file: <f_1Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:16:39
-(epstopdf)                    size: 21521 bytes
-(epstopdf)             Output file: <f_1Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 15:44:06
-(epstopdf)                    size: 15519 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_1Cosine-eps-converted-to
-.pdf f_1Cosine.eps>
-(epstopdf)             \includegraphics on input line 266.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_1Cosine-eps-converted-to.pdf, id=95, 462.72874pt x 346.29375pt>
-File: f_1Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_1Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_1Cosine-eps-converted-to.pdf used on input line 266.
-
-(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
-
-Overfull \hbox (20.27257pt too wide) in paragraph at lines 261--273
- [][] 
- []
-
-Package epstopdf Info: Source file: <f_2Cosine.eps>
-(epstopdf)                    date: 2019-03-18 10:59:34
-(epstopdf)                    size: 25927 bytes
-(epstopdf)             Output file: <f_2Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-18 10:59:49
-(epstopdf)                    size: 16732 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_2Cosine-eps-converted-to
-.pdf f_2Cosine.eps>
-(epstopdf)             \includegraphics on input line 283.
-Package epstopdf Info: Output file is already uptodate.
-<f_2Cosine-eps-converted-to.pdf, id=96, 638.385pt x 420.57124pt>
-File: f_2Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_2Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_2Cosine-eps-converted-to.pdf used on input line 283.
-
-(pdftex.def)             Requested size: 191.51697pt x 126.17235pt.
-Package epstopdf Info: Source file: <f_3Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:38:32
-(epstopdf)                    size: 21431 bytes
-(epstopdf)             Output file: <f_3Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 15:47:26
-(epstopdf)                    size: 15295 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_3Cosine-eps-converted-to
-.pdf f_3Cosine.eps>
-(epstopdf)             \includegraphics on input line 285.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_3Cosine-eps-converted-to.pdf, id=97, 462.72874pt x 346.29375pt>
-File: f_3Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_3Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_3Cosine-eps-converted-to.pdf used on input line 285.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_4Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:40:06
-(epstopdf)                    size: 24265 bytes
-(epstopdf)             Output file: <f_4Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 16:26:48
-(epstopdf)                    size: 16477 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_4Cosine-eps-converted-to
-.pdf f_4Cosine.eps>
-(epstopdf)             \includegraphics on input line 288.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_4Cosine-eps-converted-to.pdf, id=98, 462.72874pt x 346.29375pt>
-File: f_4Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_4Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_4Cosine-eps-converted-to.pdf used on input line 288.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_5Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:48:08
-(epstopdf)                    size: 24301 bytes
-(epstopdf)             Output file: <f_5Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 16:26:48
-(epstopdf)                    size: 17407 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_5Cosine-eps-converted-to
-.pdf f_5Cosine.eps>
-(epstopdf)             \includegraphics on input line 290.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_5Cosine-eps-converted-to.pdf, id=99, 462.72874pt x 346.29375pt>
-File: f_5Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_5Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_5Cosine-eps-converted-to.pdf used on input line 290.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_6Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:53:19
-(epstopdf)                    size: 24307 bytes
-(epstopdf)             Output file: <f_6Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 16:26:50
-(epstopdf)                    size: 17283 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_6Cosine-eps-converted-to
-.pdf f_6Cosine.eps>
-(epstopdf)             \includegraphics on input line 293.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_6Cosine-eps-converted-to.pdf, id=100, 462.72874pt x 346.29375pt>
-File: f_6Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_6Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_6Cosine-eps-converted-to.pdf used on input line 293.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_7Cosine.eps>
-(epstopdf)                    date: 2019-03-17 12:57:59
-(epstopdf)                    size: 23617 bytes
-(epstopdf)             Output file: <f_7Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 16:26:51
-(epstopdf)                    size: 16979 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_7Cosine-eps-converted-to
-.pdf f_7Cosine.eps>
-(epstopdf)             \includegraphics on input line 295.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_7Cosine-eps-converted-to.pdf, id=101, 462.72874pt x 346.29375pt>
-File: f_7Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_7Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_7Cosine-eps-converted-to.pdf used on input line 295.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_8Cosine.eps>
-(epstopdf)                    date: 2019-03-17 13:02:00
-(epstopdf)                    size: 23850 bytes
-(epstopdf)             Output file: <f_8Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-17 16:26:52
-(epstopdf)                    size: 16693 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_8Cosine-eps-converted-to
-.pdf f_8Cosine.eps>
-(epstopdf)             \includegraphics on input line 298.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_8Cosine-eps-converted-to.pdf, id=102, 462.72874pt x 346.29375pt>
-File: f_8Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_8Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_8Cosine-eps-converted-to.pdf used on input line 298.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-Package epstopdf Info: Source file: <f_9Cosine.eps>
-(epstopdf)                    date: 2019-03-18 12:00:07
-(epstopdf)                    size: 24448 bytes
-(epstopdf)             Output file: <f_9Cosine-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-18 12:26:20
-(epstopdf)                    size: 17347 bytes
-(epstopdf)             Command: <repstopdf --outfile=f_9Cosine-eps-converted-to
-.pdf f_9Cosine.eps>
-(epstopdf)             \includegraphics on input line 300.
-Package epstopdf Info: Output file is already uptodate.
-
-<f_9Cosine-eps-converted-to.pdf, id=103, 462.72874pt x 346.29375pt>
-File: f_9Cosine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use f_9Cosine-eps-converted-to.pdf>
-Package pdftex.def Info: f_9Cosine-eps-converted-to.pdf used on input line 300.
-
-(pdftex.def)             Requested size: 185.08821pt x 138.51503pt.
-
-
-LaTeX Warning: Float too large for page by 7.56357pt on input line 307.
-
-[8 <./f_0Cosine-eps-converted-to.pdf> <./f_1Cosine-eps-converted-to.pdf>]
-[9 <./f_2Cosine-eps-converted-to.pdf> <./f_3Cosine-eps-converted-to.pdf> <./f_4
-Cosine-eps-converted-to.pdf> <./f_5Cosine-eps-converted-to.pdf> <./f_6Cosine-ep
-s-converted-to.pdf> <./f_7Cosine-eps-converted-to.pdf> <./f_8Cosine-eps-convert
-ed-to.pdf> <./f_9Cosine-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Error_f_2.eps>
-(epstopdf)                    date: 2019-03-19 09:23:39
-(epstopdf)                    size: 25384 bytes
-(epstopdf)             Output file: <Error_f_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-19 09:26:34
-(epstopdf)                    size: 16715 bytes
-(epstopdf)             Command: <repstopdf --outfile=Error_f_2-eps-converted-to
-.pdf Error_f_2.eps>
-(epstopdf)             \includegraphics on input line 311.
-Package epstopdf Info: Output file is already uptodate.
-
-<Error_f_2-eps-converted-to.pdf, id=455, 462.72874pt x 346.29375pt>
-File: Error_f_2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Error_f_2-eps-converted-to.pdf>
-Package pdftex.def Info: Error_f_2-eps-converted-to.pdf used on input line 311.
-
-(pdftex.def)             Requested size: 231.3638pt x 173.14644pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--336
+[2] [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--336
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
 
  []
 
-[10 <./Error_f_2-eps-converted-to.pdf>] [11] (./Proposal.bbl) [12]
-(./Proposal.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+
+ []
+
+[6]
+
+LaTeX Warning: Citation `FC1' on page 7 undefined on input line 204.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
+
+ []
+
+<ZeroDegreeCosineContinuation.jpg, id=43, 562.1pt x 421.575pt>
+File: ZeroDegreeCosineContinuation.jpg Graphic file (type jpg)
+
+<use ZeroDegreeCosineContinuation.jpg>
+Package pdftex.def Info: ZeroDegreeCosineContinuation.jpg used on input line 23
+0.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FirstDegreeContinuation.jpg, id=44, 562.1pt x 421.575pt>
+File: FirstDegreeContinuation.jpg Graphic file (type jpg)
+
+<use FirstDegreeContinuation.jpg>
+Package pdftex.def Info: FirstDegreeContinuation.jpg used on input line 236.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SecondDegreeContinuation.jpg, id=45, 562.1pt x 421.575pt>
+File: SecondDegreeContinuation.jpg Graphic file (type jpg)
+
+<use SecondDegreeContinuation.jpg>
+Package pdftex.def Info: SecondDegreeContinuation.jpg used on input line 242.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<ThirdDegreeContinuation.jpg, id=46, 562.1pt x 421.575pt>
+File: ThirdDegreeContinuation.jpg Graphic file (type jpg)
+
+<use ThirdDegreeContinuation.jpg>
+Package pdftex.def Info: ThirdDegreeContinuation.jpg used on input line 248.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FourthDegreeContinuation.jpg, id=47, 562.1pt x 421.575pt>
+File: FourthDegreeContinuation.jpg Graphic file (type jpg)
+
+<use FourthDegreeContinuation.jpg>
+Package pdftex.def Info: FourthDegreeContinuation.jpg used on input line 254.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FifthDegreeContinuation.jpg, id=48, 562.1pt x 421.575pt>
+File: FifthDegreeContinuation.jpg Graphic file (type jpg)
+
+<use FifthDegreeContinuation.jpg>
+Package pdftex.def Info: FifthDegreeContinuation.jpg used on input line 258.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SixthDegreeContinuation.jpg, id=49, 562.1pt x 421.575pt>
+File: SixthDegreeContinuation.jpg Graphic file (type jpg)
+
+<use SixthDegreeContinuation.jpg>
+Package pdftex.def Info: SixthDegreeContinuation.jpg used on input line 264.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SeventhDegreeContinuation.jpg, id=50, 562.1pt x 421.575pt>
+File: SeventhDegreeContinuation.jpg Graphic file (type jpg)
+
+<use SeventhDegreeContinuation.jpg>
+Package pdftex.def Info: SeventhDegreeContinuation.jpg used on input line 270.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<EightDegreeContinuation.jpg, id=51, 562.1pt x 421.575pt>
+File: EightDegreeContinuation.jpg Graphic file (type jpg)
+
+<use EightDegreeContinuation.jpg>
+Package pdftex.def Info: EightDegreeContinuation.jpg used on input line 275.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<NinthDegreeContinuation.jpg, id=52, 562.1pt x 421.575pt>
+File: NinthDegreeContinuation.jpg Graphic file (type jpg)
+
+<use NinthDegreeContinuation.jpg>
+Package pdftex.def Info: NinthDegreeContinuation.jpg used on input line 281.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<ZeroDegreeSineCont.jpg, id=53, 562.1pt x 421.575pt>
+File: ZeroDegreeSineCont.jpg Graphic file (type jpg)
+
+<use ZeroDegreeSineCont.jpg>
+Package pdftex.def Info: ZeroDegreeSineCont.jpg used on input line 286.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FirstDegreeSineCont.jpg, id=54, 562.1pt x 421.575pt>
+File: FirstDegreeSineCont.jpg Graphic file (type jpg)
+
+<use FirstDegreeSineCont.jpg>
+Package pdftex.def Info: FirstDegreeSineCont.jpg used on input line 293.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SecondDegreeSinCont.jpg, id=55, 562.1pt x 421.575pt>
+File: SecondDegreeSinCont.jpg Graphic file (type jpg)
+
+<use SecondDegreeSinCont.jpg>
+Package pdftex.def Info: SecondDegreeSinCont.jpg used on input line 299.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<ThirdDegreeSineCont.jpg, id=56, 562.1pt x 421.575pt>
+File: ThirdDegreeSineCont.jpg Graphic file (type jpg)
+
+<use ThirdDegreeSineCont.jpg>
+Package pdftex.def Info: ThirdDegreeSineCont.jpg used on input line 305.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FourthDegreeSineCont.jpg, id=57, 562.1pt x 421.575pt>
+File: FourthDegreeSineCont.jpg Graphic file (type jpg)
+
+<use FourthDegreeSineCont.jpg>
+Package pdftex.def Info: FourthDegreeSineCont.jpg used on input line 312.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<FifthDegreeSineCont.jpg, id=58, 562.1pt x 421.575pt>
+File: FifthDegreeSineCont.jpg Graphic file (type jpg)
+
+<use FifthDegreeSineCont.jpg>
+Package pdftex.def Info: FifthDegreeSineCont.jpg used on input line 317.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SixthDegreeSineCont.jpg, id=59, 562.1pt x 421.575pt>
+File: SixthDegreeSineCont.jpg Graphic file (type jpg)
+
+<use SixthDegreeSineCont.jpg>
+Package pdftex.def Info: SixthDegreeSineCont.jpg used on input line 322.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<SeventhDegreeSineCont.jpg, id=60, 562.1pt x 421.575pt>
+File: SeventhDegreeSineCont.jpg Graphic file (type jpg)
+
+<use SeventhDegreeSineCont.jpg>
+Package pdftex.def Info: SeventhDegreeSineCont.jpg used on input line 329.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+LaTeX Warning: Float too large for page by 3622.73549pt on input line 333.
+
+LaTeX Font Info:    Try loading font information for U+eus on input line 340.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
+
+ []
+
+[8] [9 <./ZeroDegreeCosineContinuation.jpg> <./FirstDegreeContinuation.jpg> <./
+SecondDegreeContinuation.jpg> <./ThirdDegreeContinuation.jpg> <./FourthDegreeCo
+ntinuation.jpg> <./FifthDegreeContinuation.jpg> <./SixthDegreeContinuation.jpg>
+ <./SeventhDegreeContinuation.jpg> <./EightDegreeContinuation.jpg> <./NinthDegr
+eeContinuation.jpg> <./ZeroDegreeSineCont.jpg> <./FirstDegreeSineCont.jpg> <./S
+econdDegreeSinCont.jpg> <./ThirdDegreeSineCont.jpg> <./FourthDegreeSineCont.jpg
+> <./FifthDegreeSineCont.jpg> <./SixthDegreeSineCont.jpg> <./SeventhDegreeSineC
+ont.jpg>] <ErrorFCGramonExp.jpg, id=67, 812.03375pt x 562.1pt>
+File: ErrorFCGramonExp.jpg Graphic file (type jpg)
+
+<use ErrorFCGramonExp.jpg>
+Package pdftex.def Info: ErrorFCGramonExp.jpg used on input line 351.
+(pdftex.def)             Requested size: 406.01588pt x 281.04932pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--356
+
+ []
+
+[10 <./ErrorFCGramonExp.jpg>] <ErrorRunge.jpg, id=72, 562.1pt x 421.575pt>
+File: ErrorRunge.jpg Graphic file (type jpg)
+
+<use ErrorRunge.jpg>
+Package pdftex.def Info: ErrorRunge.jpg used on input line 361.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ [11 <./ErrorRunge.jpg>]
+
+LaTeX Warning: Citation `FCAD1' on page 12 undefined on input line 397.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
+
+ []
+
+Missing character: There is no e in font msbm10!
+
+Overfull \hbox (8.98886pt too wide) in paragraph at lines 416--423
+ \OT1/cmr/m/n/10.95 1.6.\OT1/cmr/bx/n/10.95 Stability of FC-approximations.[] \
+OT1/cmr/m/n/10.95 With-out ap-ply-ing any schemes, us-ing the FC-Gram method
+ []
+
+[12] [13]
+
+LaTeX Warning: Citation `BO' on page 14 undefined on input line 472.
+
+[14] [15] [16] [17] [18] (./Thing.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 22967 strings out of 493089
- 564092 string characters out of 6134842
- 745068 words of memory out of 5000000
- 25823 multiletter control sequences out of 15000+600000
- 18966 words of font info for 71 fonts, out of 8000000 for 9000
+ 23055 strings out of 493089
+ 566012 string characters out of 6134842
+ 748068 words of memory out of 5000000
+ 25897 multiletter control sequences out of 15000+600000
+ 18920 words of font info for 72 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 54i,15n,77p,909b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
-fb>
-Output written on Proposal.pdf (12 pages, 403108 bytes).
+ 54i,13n,77p,1090b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thing.pdf (18 pages, 620499 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 162 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
