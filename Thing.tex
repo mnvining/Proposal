@@ -409,7 +409,7 @@ Equation \ref{DiffEq} can be rewritten as
 To solve using Fourier Continuations, first the equation is discretized on a given (assumed equispaced) grid: $f_j=f(x_j)$ for $j=1,\ldots n$ and the solution $u_j=u(x_j)$.  
 The Fourier continuation is calculated for $f_j$.  Then the FFT is taken of both sides, thereby diagonalizing the differential operator, heretofore referred to as $D$, where 
 \begin{equation}
-D_{kk}=\mathbb{I}+\alpha k^2
+D_{kk}=1+\alpha k^2
 \end{equation}
 for each of the modes $k$.  
 
@@ -421,11 +421,35 @@ for each of the modes $k$.
 
 
 \section{Stability of Fourier Continuation in ODE Solutions}
-Analytically, the operator 
-\begin{equation}
-\mathscr{L}=1-\alpha \dfrac{d^2}{dx^2} 
-\end{equation}
-is asymptotically stable.  Eigenvalue analysis in the Hilbert space $C^n\[-1,1\]$, where $n\geq2$, shows that the operator has eigenfunctions 
+First and foremost, it cannot be assumed that using a Fourier Continuation approximation to solve an ODE will be stable if the operator itself isn't stable in a continuous space.  The differential equation \ref{DiffEq} subject to boundary conditions 
+\begin{eqnarray*}
+u(a)&=&0 \\ 
+u(b)&=&0
+\end{eqnarray*}
+is stable.  This stability is measured based on the function $f$: given an input of $f$ such that $\|f\|=1$, the solution $u$ should be such that $\|u\| \leq 1$.  This can be shown using the Green's function form of the solution.   The Green's function itself, constructed from the homogenous solutions, is forced to agree with boundary conditions.  When measuring the $\infty$ norm of $u$ as $\sup_{x \in [-1,1]} u(x)$, this yields
+\begin{eqnarray*}
+\sup_{x \in [-1,1]} u(x) &=& \sup_{x \in [-1,1] } \int_{-1}^{1}G(x,a)f(a)da \\
+ &=& \int_{-1}^{1} \sup_{x \in [-1,1]} G(x,a)f(a)da \\ 
+ &\leq& \int_{-1}^{1} f(a)da \\
+ &\leq & 1 
+\end{eqnarray*}
+with equivalencies drawn because the convolution integral for the Green's function converges, and because the construction of the Green's function guarantees that the Green's function itself must be 0 at the boundaries  and have at most a jump discontinuity of 1.  
+Shown below are some of the analytical solutions using the Green's function applied to $f(x)$ where $\|f\|_{\inf}=1$ for various values of $\alpha$. It can be seen that for larger values of $\alpha$, the maximum value of the solution is significantly smaller. The focus of stability questions for the remainder of this dissertation loosely assume stability for large values of $\alpha$ and focus numerically on the smaller values of $\alpha$, for as the solution gets closer and closer to the original function (as $\alpha \to 0$), any numerical error introduced could amplify and push the solution to have a maximum value above 1.  
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[scale=0.5]{Greens0.jpg}
+\caption{G0}
+\label{G0}
+\includegraphics[scale=0.5]{Greens1.jpg}
+\caption{G1}
+\label{G1}
+\includegraphics[scale=0.5]{Greens9.jpg}
+\caption{G9}
+\end{center}
+\end{figure}
+
+
+
 \subsection{Stability of FC-approximations}
 Without applying any schemes, using the FC-Gram method to approximate the function $f$, and then using the properties of FFTs to solve differential equations like Equation \ref{DiffEq} yields accurate but occasionally unstable results.  \\
 Stability is calculated by first using FC-Gram and FFTs to solve the differential equation with initial data $f=\mathbf{e}_i$, $i=1,\ldots n$. Note: the vectors $\mathbf{e}_i$ are the columns of the identity matrix $\mathbb{I}$. 
@@ -434,15 +458,30 @@ Then each solution $u_i$ is stored as a column in a matrix of solutions $U$, suc
 The stability is calculated by taking the SVD of the matrix $U$.  The singular values $S_{ii}$ of the SVD demonstrate any amplification of error that will take place.  If any $S_{ii}$ are greater than 1, the result is unstable.   
 \\
 Though this is the formal test of stability, along the way stability is tested for various choices of $f$ by calculating the corresponding solution $u$, enforcing boundary conditions through use of the homogeneous solutions, and then taking the ratio of the size of the solution to the size of the original function, or 
-\begin{equation}
+\begin{equation} 
 s=\dfrac{||u||}{||f||}
 \end{equation}
-with $|| \cdot ||$ either representing the Euclidean (2-)norm or the max-norm. 
+with $|| \cdot ||$ either representing the Euclidean (2-)norm or the max-norm.  
 
 
-The three schemes proposed in this dissertation provide alternative stabilization schemes that rely on a priori changes to the continuation matrix, before applying the FC-Gram method. 
+Without applying any scheme to the FC-Gram approximation process, and using the process described in the above section, the following stability results are achieved for a sample of $\alpha$ between $0.0001$ and $1$. 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[scale=0.5]{StabilityGraphDeg0.jpg}
+\caption{Stability of Fourier Continuations Under the Given Differential Operator with No Changes}
+\label{Stab1}
+\end{center}  
+\end{figure}
+As shown in Figure \ref{Stab1}, while for some larger values of $\alpha$ and some smaller values of $\alpha$ there is inherent stability in the system. While it would be excellent to just ignore the range of $\alpha$ values for which the system is unstable, that would not be practical in application as the time-stepping could lead to any possible value of $\alpha$.  
+This change of behavior from the analytic must be contributed to not the behavior of the forcing function $f$ inside the domain in question but to the shape of the continuation outside of the original domain (in the extended domain).  As a general approximation scheme, without use as a differential operator solver, the shape of the continuation does not affect accuracy results (that is, the continuation could take on several different shapes in the extended domain and the accuracy should not be affected).  However, because of the ``smoothing" property that the second-derivative operator takes on, large values of the continuation in the extended domain can get smoothed back into the original domain as the operator is applied, thus introducing potential instability into the solution.
 
-\subsection{Stability Without Stabilization}
+The three schemes proposed in this dissertation provide alternative stabilization schemes that rely on a priori changes to the continuation matrix, before applying the FC-Gram method. These changes suggest that controlling the behavior of the continuation outside the original domain will affect the stability of the approximation.  \\
+The first scheme attempts to modify the shape of the continuation by forcing the continuation itself to match the function as usual, but adding an additional constraint that the application of the pseudo-inverse of the differential operator to the function must match the Green's function solution, discretized on the given domain. \\
+The second scheme looks at the underlying mechanics of inverting the continuation matrix, and uses the SVD of the continuation matrix to try to minimize the changes made, while still focusing on accuracy and leveraging another constraint to keeping the continuation small in the extended domain.  \\
+The final scheme attempts to only remove pieces of the continuation that contribute to the instability through brute-force calculations. 
+
+
+
 
 
 \subsection{Error Approximation and Tolerances}
@@ -459,6 +498,10 @@ Assuming the highest degree polynomial will have the largest error, $h^{n-1}E_{n
 (For example, if using a set of $n=10$ orthogonal polynomials, with an error $E_9=1e-2$, if 16 digits of accuracy are desired for the approximation of $f$, $h^9 E_9  = 1e-16$, giving us $h^9=1e-14$ or $h\approx 3e-2$.  Using this, in order to maintain an accuracy of 1e-16, for the 4th degree polynomial the term $h^4E_4$ must also equal $1e-16$, so $E_4$ must be approximately $1e-10$).  \\Operating within these bounds, it can be seen that high accuracy is needed in the lower degree polynomials, but that higher accuracy in the higher degree polynomials will not affect the overall accuracy of the approximation.  \\
 Thus, instead of enforcing a strict machine-precision tolerance to approximate each polynomial, the tolerance is relaxed.  This appears in the SVD solve of the system of equations.  By relaxing the tolerance, some of the high-frequency modes which would cause the continuations to grow larger over a shorter interval are taken out of the system.  This controls the size of the continuations and allows for the transition from high precision to double precision without loss of accuracy. 
 \subsection{Trade-Off of Stability and Accuracy}
+There is a definitive trade-off in stability of the differential operator solution and the accuracy of the continuation as it matches the function.  The more stable, the less accuracy is seen overall. In order to keep the FC-AD scheme at the same order of accuracy overall, we want the scheme to be as accurate as possible, but without stabilization, the scheme can introduce significant errors that will propagate each time step. Using error approximation to guide the desired accuracy of the results allows us to enforce stability with the higher-degree polynomials while relaxing the error tolerance for what would be considered an 	``acceptable" approximation.  The trade-off in accuracy and stability will be shown in each scheme as it is the most important factor when we want a high-order accurate and stable method. 
+
+
+
 \section{First Method: Matching Green's Functions}
 \subsubsection{Green's Functions}
 The Green's Function solution was then calculated via the methods described in Bender and Orszag: Let 
@@ -597,6 +640,18 @@ For the computations made, we chose $n=10$ and $B=3.5$, and tested values of $\a
 
 
 \section{Second Method: Singular Value Decomposition of the Continuation Operator}
+The second scheme developed relies on the singular value decomposition of the continuation operator. In order to construct the continuation, a least-squares problem is constructed, which in essence becomes 
+\begin{equation}
+C f^C=f
+\end{equation}
+and the $f^C$ is then used in conjunction with the differential operator 
+\begin{equation}
+Du=f
+\end{equation}
+with an end result solving for $u$ as
+\begin{equation}
+CD^{\dag}f^C=u
+\end{equation}
 \subsection{Perturbation of the SVD}
  
 \subsubsection{Stability for the Polynomials as a Function of $\alpha$}

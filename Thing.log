@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 MAR 2021 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JUN 2021 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,22 +1229,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--163
 LaTeX Warning: Citation `FC1' on page 7 undefined on input line 204.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--227
+Underfull \hbox (badness 10000) in paragraph at lines 220--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--227
+Underfull \hbox (badness 10000) in paragraph at lines 220--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--227
+Underfull \hbox (badness 10000) in paragraph at lines 220--228
 
  []
 
@@ -1253,141 +1253,141 @@ File: ZeroDegreeCosineContinuation.jpg Graphic file (type jpg)
 
 <use ZeroDegreeCosineContinuation.jpg>
 Package pdftex.def Info: ZeroDegreeCosineContinuation.jpg used on input line 23
-0.
+1.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FirstDegreeContinuation.jpg, id=44, 562.1pt x 421.575pt>
 File: FirstDegreeContinuation.jpg Graphic file (type jpg)
 
 <use FirstDegreeContinuation.jpg>
-Package pdftex.def Info: FirstDegreeContinuation.jpg used on input line 236.
+Package pdftex.def Info: FirstDegreeContinuation.jpg used on input line 237.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SecondDegreeContinuation.jpg, id=45, 562.1pt x 421.575pt>
 File: SecondDegreeContinuation.jpg Graphic file (type jpg)
 
 <use SecondDegreeContinuation.jpg>
-Package pdftex.def Info: SecondDegreeContinuation.jpg used on input line 242.
+Package pdftex.def Info: SecondDegreeContinuation.jpg used on input line 243.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <ThirdDegreeContinuation.jpg, id=46, 562.1pt x 421.575pt>
 File: ThirdDegreeContinuation.jpg Graphic file (type jpg)
 
 <use ThirdDegreeContinuation.jpg>
-Package pdftex.def Info: ThirdDegreeContinuation.jpg used on input line 248.
+Package pdftex.def Info: ThirdDegreeContinuation.jpg used on input line 249.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FourthDegreeContinuation.jpg, id=47, 562.1pt x 421.575pt>
 File: FourthDegreeContinuation.jpg Graphic file (type jpg)
 
 <use FourthDegreeContinuation.jpg>
-Package pdftex.def Info: FourthDegreeContinuation.jpg used on input line 254.
+Package pdftex.def Info: FourthDegreeContinuation.jpg used on input line 255.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FifthDegreeContinuation.jpg, id=48, 562.1pt x 421.575pt>
 File: FifthDegreeContinuation.jpg Graphic file (type jpg)
 
 <use FifthDegreeContinuation.jpg>
-Package pdftex.def Info: FifthDegreeContinuation.jpg used on input line 258.
+Package pdftex.def Info: FifthDegreeContinuation.jpg used on input line 259.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SixthDegreeContinuation.jpg, id=49, 562.1pt x 421.575pt>
 File: SixthDegreeContinuation.jpg Graphic file (type jpg)
 
 <use SixthDegreeContinuation.jpg>
-Package pdftex.def Info: SixthDegreeContinuation.jpg used on input line 264.
+Package pdftex.def Info: SixthDegreeContinuation.jpg used on input line 265.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SeventhDegreeContinuation.jpg, id=50, 562.1pt x 421.575pt>
 File: SeventhDegreeContinuation.jpg Graphic file (type jpg)
 
 <use SeventhDegreeContinuation.jpg>
-Package pdftex.def Info: SeventhDegreeContinuation.jpg used on input line 270.
+Package pdftex.def Info: SeventhDegreeContinuation.jpg used on input line 271.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <EightDegreeContinuation.jpg, id=51, 562.1pt x 421.575pt>
 File: EightDegreeContinuation.jpg Graphic file (type jpg)
 
 <use EightDegreeContinuation.jpg>
-Package pdftex.def Info: EightDegreeContinuation.jpg used on input line 275.
+Package pdftex.def Info: EightDegreeContinuation.jpg used on input line 276.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <NinthDegreeContinuation.jpg, id=52, 562.1pt x 421.575pt>
 File: NinthDegreeContinuation.jpg Graphic file (type jpg)
 
 <use NinthDegreeContinuation.jpg>
-Package pdftex.def Info: NinthDegreeContinuation.jpg used on input line 281.
+Package pdftex.def Info: NinthDegreeContinuation.jpg used on input line 282.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <ZeroDegreeSineCont.jpg, id=53, 562.1pt x 421.575pt>
 File: ZeroDegreeSineCont.jpg Graphic file (type jpg)
 
 <use ZeroDegreeSineCont.jpg>
-Package pdftex.def Info: ZeroDegreeSineCont.jpg used on input line 286.
+Package pdftex.def Info: ZeroDegreeSineCont.jpg used on input line 287.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FirstDegreeSineCont.jpg, id=54, 562.1pt x 421.575pt>
 File: FirstDegreeSineCont.jpg Graphic file (type jpg)
 
 <use FirstDegreeSineCont.jpg>
-Package pdftex.def Info: FirstDegreeSineCont.jpg used on input line 293.
+Package pdftex.def Info: FirstDegreeSineCont.jpg used on input line 294.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SecondDegreeSinCont.jpg, id=55, 562.1pt x 421.575pt>
 File: SecondDegreeSinCont.jpg Graphic file (type jpg)
 
 <use SecondDegreeSinCont.jpg>
-Package pdftex.def Info: SecondDegreeSinCont.jpg used on input line 299.
+Package pdftex.def Info: SecondDegreeSinCont.jpg used on input line 300.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <ThirdDegreeSineCont.jpg, id=56, 562.1pt x 421.575pt>
 File: ThirdDegreeSineCont.jpg Graphic file (type jpg)
 
 <use ThirdDegreeSineCont.jpg>
-Package pdftex.def Info: ThirdDegreeSineCont.jpg used on input line 305.
+Package pdftex.def Info: ThirdDegreeSineCont.jpg used on input line 306.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FourthDegreeSineCont.jpg, id=57, 562.1pt x 421.575pt>
 File: FourthDegreeSineCont.jpg Graphic file (type jpg)
 
 <use FourthDegreeSineCont.jpg>
-Package pdftex.def Info: FourthDegreeSineCont.jpg used on input line 312.
+Package pdftex.def Info: FourthDegreeSineCont.jpg used on input line 313.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <FifthDegreeSineCont.jpg, id=58, 562.1pt x 421.575pt>
 File: FifthDegreeSineCont.jpg Graphic file (type jpg)
 
 <use FifthDegreeSineCont.jpg>
-Package pdftex.def Info: FifthDegreeSineCont.jpg used on input line 317.
+Package pdftex.def Info: FifthDegreeSineCont.jpg used on input line 318.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SixthDegreeSineCont.jpg, id=59, 562.1pt x 421.575pt>
 File: SixthDegreeSineCont.jpg Graphic file (type jpg)
 
 <use SixthDegreeSineCont.jpg>
-Package pdftex.def Info: SixthDegreeSineCont.jpg used on input line 322.
+Package pdftex.def Info: SixthDegreeSineCont.jpg used on input line 323.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 <SeventhDegreeSineCont.jpg, id=60, 562.1pt x 421.575pt>
 File: SeventhDegreeSineCont.jpg Graphic file (type jpg)
 
 <use SeventhDegreeSineCont.jpg>
-Package pdftex.def Info: SeventhDegreeSineCont.jpg used on input line 329.
+Package pdftex.def Info: SeventhDegreeSineCont.jpg used on input line 330.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 
-LaTeX Warning: Float too large for page by 3622.73549pt on input line 333.
+LaTeX Warning: Float too large for page by 3622.73549pt on input line 334.
 
-LaTeX Font Info:    Try loading font information for U+eus on input line 340.
+LaTeX Font Info:    Try loading font information for U+eus on input line 341.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--342
 
  []
 
@@ -1402,10 +1402,10 @@ ont.jpg>] <ErrorFCGramonExp.jpg, id=67, 812.03375pt x 562.1pt>
 File: ErrorFCGramonExp.jpg Graphic file (type jpg)
 
 <use ErrorFCGramonExp.jpg>
-Package pdftex.def Info: ErrorFCGramonExp.jpg used on input line 351.
+Package pdftex.def Info: ErrorFCGramonExp.jpg used on input line 352.
 (pdftex.def)             Requested size: 406.01588pt x 281.04932pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--356
+Underfull \hbox (badness 10000) in paragraph at lines 349--357
 
  []
 
@@ -1413,29 +1413,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--356
 File: ErrorRunge.jpg Graphic file (type jpg)
 
 <use ErrorRunge.jpg>
-Package pdftex.def Info: ErrorRunge.jpg used on input line 361.
+Package pdftex.def Info: ErrorRunge.jpg used on input line 362.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
  [11 <./ErrorRunge.jpg>]
 
-LaTeX Warning: Citation `FCAD1' on page 12 undefined on input line 397.
+LaTeX Warning: Citation `FCAD1' on page 12 undefined on input line 398.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--398
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
+
+[12] <Greens0.jpg, id=79, 562.1pt x 421.575pt>
+File: Greens0.jpg Graphic file (type jpg)
+ <use Greens0.jpg>
+Package pdftex.def Info: Greens0.jpg used on input line 440.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<Greens1.jpg, id=80, 562.1pt x 421.575pt>
+File: Greens1.jpg Graphic file (type jpg)
+ <use Greens1.jpg>
+Package pdftex.def Info: Greens1.jpg used on input line 443.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<Greens9.jpg, id=81, 562.1pt x 421.575pt>
+File: Greens9.jpg Graphic file (type jpg)
+ <use Greens9.jpg>
+Package pdftex.def Info: Greens9.jpg used on input line 446.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+LaTeX Warning: Float too large for page by 70.93091pt on input line 449.
 
 Missing character: There is no e in font msbm10!
 
-Overfull \hbox (8.98886pt too wide) in paragraph at lines 416--423
- \OT1/cmr/m/n/10.95 1.6.\OT1/cmr/bx/n/10.95 Stability of FC-approximations.[] \
+Overfull \hbox (8.98886pt too wide) in paragraph at lines 454--461
+ \OT1/cmr/m/n/10.95 2.1.\OT1/cmr/bx/n/10.95 Stability of FC-approximations.[] \
 OT1/cmr/m/n/10.95 With-out ap-ply-ing any schemes, us-ing the FC-Gram method
  []
 
-[12] [13]
+<StabilityGraphDeg0.jpg, id=82, 562.1pt x 421.575pt>
+File: StabilityGraphDeg0.jpg Graphic file (type jpg)
 
-LaTeX Warning: Citation `BO' on page 14 undefined on input line 472.
+<use StabilityGraphDeg0.jpg>
+Package pdftex.def Info: StabilityGraphDeg0.jpg used on input line 470.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ [13] [14 <./Greens0.jpg> <./Greens1.jpg> <./Greens9.jpg>] [15 <./StabilityGrap
+hDeg0.jpg>]
 
-[14] [15] [16] [17] [18] (./Thing.aux)
+LaTeX Warning: Citation `BO' on page 16 undefined on input line 521.
+
+[16] [17] [18] [19] [20] [21] (./Thing.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1444,10 +1472,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23055 strings out of 493089
- 566012 string characters out of 6134842
+ 23078 strings out of 493089
+ 566378 string characters out of 6134842
  748068 words of memory out of 5000000
- 25897 multiletter control sequences out of 15000+600000
+ 25916 multiletter control sequences out of 15000+600000
  18920 words of font info for 72 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  54i,13n,77p,1090b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1470,10 +1498,10 @@ ve/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thing.pdf (18 pages, 620499 bytes).
+Output written on Thing.pdf (21 pages, 703676 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
