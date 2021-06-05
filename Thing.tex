@@ -650,10 +650,21 @@ Du=f
 \end{equation}
 with an end result solving for $u$ as
 \begin{equation}
-CD^{\dag}f^C=u
+C^{\dag}D^{\dag}f^C=u
 \end{equation}
+On the original domain, $f^C \sim f$, to numerical tolerances and thus we can expect $\|f^C\| \leq 1$.  The inverted differential operator $D^{\dag}$ is a diagonal operator whose values are all less than or equal to 1.  Thus, any instability must come from the pseudoinverse of $C$.  
+$C^{\dag}$ is constructed from the SVD of $C$, that is, if $C=USV^{T}$, then $C^{\dag}=U^{T}S^{\dag}V$.  $S^{\dag}$ is computed using a numerical tolerance - if $s_{ii}<\text{tol}$, $s^{\dag}_{ii}=0$ to avoid division by zero or near-zero issues. It is expected that $S$ will contain some zero or near-zero singular values. This represents the modes of the sine or cosine functions that are not as influential in the continuation (principle components analysis).  The other properties stem directly from the definition and construction of the SVD.  
+
 \subsection{Perturbation of the SVD}
- 
+The concern becomes the effect that the rows of $V^T$ have on the Fourier coefficients.  The scheme developed is aimed to find and then minimize rows of $V$ that exhibit behavior not easily attained by the choice of modes for the Fourier Continuation, thus attempting to control the size of $V^Tf^C$, subject to the constraints of accuracy (that the changes to the continuation itself must retain a high level of accuracy) and size (that the size of the continuation must remain small enough to be usable).  
+Thus we have the following minimization problem: 
+\begin{eqnarray}
+\text{minimize} & |CD^{\dag}V\gamma - C D^{\dag}f^C| \\
+\text{and} & ||S|| \\
+\text{subject to} & Cf^c = f
+\end{eqnarray}
+The goal is to find the ``problematic" columns of V, and use $\gamma$ to remove those values from the solution entirely, while keeping the size of the singular values small and maintaining accuracy of the continuation matrix. 
+Removing a linear combination of the columns of V will change the shape of the continuation but as long as we keep the constraints in place the accuracy in the original domain should not be affected. 
 \subsubsection{Stability for the Polynomials as a Function of $\alpha$}
 %
 %

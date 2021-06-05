@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JUN 2021 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUN 2021 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1463,7 +1463,7 @@ hDeg0.jpg>]
 
 LaTeX Warning: Citation `BO' on page 16 undefined on input line 521.
 
-[16] [17] [18] [19] [20] [21] (./Thing.aux)
+[16] [17] [18] [19] [20] [21] [22] (./Thing.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1498,10 +1498,10 @@ ve/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thing.pdf (21 pages, 703676 bytes).
+Output written on Thing.pdf (22 pages, 707081 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 179 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
